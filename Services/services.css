@@ -1,0 +1,279 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+
+
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+
+#main {
+    background-image: url('./image/services-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color:white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#main h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+#main p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    width: 80%;
+    margin: auto;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:white;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #555;
+    color: white;
+}
+
+.header-section
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.card-container {
+    display: flex; 
+    width: 80%;
+    margin: auto;
+}
+
+.card {
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+.card h2{
+    padding-bottom: 20px;
+}
+
+
+.icon {
+    font-size: 24px;
+    margin-bottom: 10px;
+
+}
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column; 
+        width: 100%;
+    }
+    .card {
+        width: 90%; 
+    }
+}
+#card
+{
+    background: linear-gradient(135deg, #2980b9, #3498db,white);
+}
+.container-1
+{
+    background: linear-gradient(135deg, #2980b9, #3498db,white);
+}
+.servicedata
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+.servicedata-1
+{
+    font-size: 25px;
+    width: 49%;
+padding-top: 20px;
+color: white;
+}
+.servicedata-2
+{
+
+    width: 49%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.service-card-1
+{
+    display: flex;
+    width: 80%;
+   justify-content: space-between;
+    margin: auto;
+    flex-wrap: wrap;
+   
+    
+}
+.container-1
+{
+
+    /* background-color: white; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.service-details-1
+{
+    width: 49%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    background-color:#f4f8ff;
+    box-shadow:  rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   margin-bottom: 20px;
+   margin-top: 10px;
+    border-radius: 10px;
+}
+
+.service-details-1-1
+{
+    width: 45%;
+padding: 10px;
+
+}
+
+.service-details-1-1 img:hover
+{
+    opacity: 0.7;
+
+}
+.service-details-1-2
+{
+
+    width: 53%;
+display: flex;
+flex-wrap: wrap;
+ 
+}
+/* .service-details-1-2 h2
+{
+position: absolute;
+right: 5px;
+top: 15px;
+background-color: #3498db;
+color:white;
+padding: 5px;
+font-size: 20px;
+width: 60%;
+border-top-left-radius: 10px;
+border-bottom-right-radius: 10px;
+
+ 
+} */
+
+.service-details-1-2 h2:hover
+{
+    background: black;
+    color:white;
+}
+.service-title {
+    position: absolute;
+    top: 15px;
+right: 5px;
+  width: 70%;
+background-color:white;
+border-top-right-radius: 10px;
+border-bottom-left-radius: 10px;
+text-align: left;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 5px;
+color:black;
+line-height: 30px;
+
+
+
+
+}
+
+.service-description {
+    margin-top: 60px;
+    text-align: justify;
+    width: 80%;
+    font-size: 17px;
+
+}
+@media (max-width: 768px) {
+    .service-card-1 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .service-details-1 {
+        width: 100%;
+       
+    }
+
+    .service-details-1-1 {
+        width: 100%;
+    }
+
+    .service-details-1-2 {
+        width: 100%;
+    }
+
+    .service-details-1-2 h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .service-title {
+        font-size: 18px;
+        /* width: 100%; */
+    }
+
+    .service-description {
+        font-size: 14px;
+        /* width: 100%; */
+        margin-top: 60px;
+    }
+}

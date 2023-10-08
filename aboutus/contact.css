@@ -1,0 +1,551 @@
+.para{
+   margin-top:23%;
+   margin-left:23%;
+}
+.para {
+    font-size: 25px;
+    position: relative;
+    
+    font-family:Arial, Helvetica, sans-serif;
+    /* animation: slideIn 6s ease-in infinite;
+        /* Use the "slideInOut" animation 
+        animation-duration: 2;*/
+}
+.para .heading{
+    width:100%;
+}
+.heading h1{
+    font-size: 53px;
+    font-weight: 700;
+    font-family: 'poppins', sans-serif !important;
+    letter-spacing: 2px;
+}
+.head-button{
+    margin-top:38px;
+}
+.head-button button{
+    border-style: none;
+    padding-top:17px;
+    padding-bottom: 17px;
+    padding-left:38px;
+    padding-right: 38px;
+    border: 2px solid #0872b5;
+        border-radius: 35px;
+        font-size: 20px;;
+        font-weight: bold;
+        letter-spacing: 1px;;
+}
+.head-button button:hover{
+    background-color: #0872b5;
+    color: azure;
+}
+.cards{
+    border-radius: 10px;;
+
+box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+ text-align: center;
+}
+
+.card-1  h4 {
+    margin-top:17px;
+    color: #0872b5;
+}
+.card-1 p {
+    
+    font-size: 16px;
+    font-weight: 500;
+    padding-top:12px;
+}
+.card-1 p a{
+    color:rgb(19, 19, 19);
+   
+}
+.img-about{
+    position: relative;
+}
+.about-para{
+    top:25%;
+    text-align: center;
+    position: relative;
+}
+.para-2{
+    width:36%;
+    text-align: center;
+    margin-left:32%;
+    margin-top:20px;
+}
+.abut-para-1 h1{
+    font-size: 58px;
+    font-weight: 600;
+    
+}
+.para-2 p{
+    font-size: 20px;;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 40px;;
+}
+.buttons{
+    display: flex;
+    margin-left:35%;
+    margin-top:40px;
+    justify-content: space-around;
+    width:30%;
+    
+}
+.button-1 button{
+    padding-top:15px;
+    padding-bottom: 15px;
+    padding-left: 36px;
+    padding-right: 36px;
+    border-style: none;
+    font-weight: 700;
+    font-size: 20px;;
+    border: 2px solid #0872b5;
+        border-radius: 34px;
+        ;
+
+}
+.button-2 button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-style: none;
+    font-weight: 700;
+    font-size: 20px;
+    ;
+    background-color:  #0872b5;
+    color:white;
+    border-radius: 28px;
+    
+}
+.img-bg{
+    width:47%;
+    position: absolute;
+    top:69%;
+    
+}/*
+            left: -100%;
+            /* Start with text outside of the viewport 
+            animation: slideIn 5s ease-in infinite;
+            /* Use the "slideInOut" animation 
+            animation-duration:1;
+        
+    
+        @keyframes slideIn {
+    
+            0%,
+            100% {
+                left: -100%;
+                /* Text is outside of the viewport at the beginning and end of animation 
+            }
+    
+            50% {
+                left: 0;
+                /* Text is fully inside the viewport in the middle of the animation 
+            }
+        }
+*/
+.first{
+    position: absolute;
+    top:103%;
+    padding-left:13%;
+    padding-top:6%;
+
+} 
+/*.slide-in{
+    position: relative;
+    left: -100%; /* Start with text outside of the viewport 
+    animation: slideIn 5s ease-in infinite; /* Use the "slideInOut" animation 
+  }
+  */
+  
+  /*@keyframes slideIn {
+    0%, 100% {
+      left: -100%; /* Text is outside of the viewport at the beginning and end of animation 
+    }
+    50% {
+      left: 0; /* Text is fully inside the viewport in the middle of the animation 
+    }
+  }
+  */
+.head-num span{
+    font-size: 87px;
+    font-weight: 700;
+}
+.heading-num h1{
+    font-size: 56px;
+    padding-top:14px;
+        font-weight: 700;
+        padding-left: 35px;
+}
+    
+.num-para p{
+    font-size:19px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 1px;
+}
+.num-para2 li{
+    font-size: 19px;
+        font-weight: 400;
+        line-height: 41px;
+        letter-spacing: 1px;
+}
+.num-para2 ul{
+    padding:0;
+    margin:0;
+
+}
+.img-3{
+    margin-top:38%;
+    position: relative;
+}
+.img-3 img{
+    width:100%;
+    height:100%;
+    
+}
+.divs{
+    position: absolute;
+    top:10rem;
+    padding-left:2%;
+    color:azure;
+    justify-content: space-around;
+}
+.divs .div-1{
+    width:31%;
+}
+.divs .div-2 {
+    width: 55%;
+}
+.div-2 p{
+    font-size:20px;
+    font-weight: 400;
+    line-height: 39px;
+    
+}
+.img-4 {
+    position: absolute;
+    
+    top:50rem;
+    
+}
+.img-4 .img-bg2{
+    width:66%;
+    float: right;
+}
+ .img-bg2 img{
+    margin-left:62%;
+ }
+
+.buttons-2 {
+    display: flex;
+   
+    margin-top: 60px;
+    justify-content: space-around;
+    width: 30%;
+
+}
+.button-3 button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 36px;
+    padding-right: 36px;
+    border-style: none;
+    font-weight: 700;
+    font-size: 20px;
+    ;
+    border: 2px solid #2090d5;
+    border-radius: 34px;
+    color: antiquewhite;
+    background-color: #2ec0f1;
+    ;
+
+}
+.button-3 button:hover{
+    background-color: #0872b5;
+    color: white;
+}
+.first2{
+    position: absolute;
+  top:61%;
+  padding-left:12%;
+  
+}
+
+.head-num2 span {
+    font-size: 87px;
+    font-weight: 700;
+}
+
+.heading-num2 h1 {
+    font-size: 56px;
+    padding-top: 14px;
+    font-weight: 700;
+    padding-left:35px;
+}
+
+.num-para2 p {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 1px;
+}
+
+.num-para3 p {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 1px;
+    width: 42%;
+}
+
+.num-para3 p {
+    padding: 0;
+    margin: 0;
+
+}
+.clients{
+    width:100%;
+
+    margin-top:6%;
+    text-align: center;
+}
+.clients-head h4{
+    font-size:20px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    padding-top:3%;
+}
+.clients-head h1{
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 1px;;
+    padding-top:18px;
+}
+.clients-head p {
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding-top: 18px;
+}
+.para-clients p{
+    width:50%;
+    text-align: center;
+    margin: auto;
+}
+.cl-img{
+    margin:auto;
+    
+    
+}
+.cl-img img{
+    border-radius: 50%;;
+}
+.cl-para {
+    width:77%;
+    margin: auto;
+}
+.cl-para p{
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+.cl-name h5{
+    font-weight: 500;;
+}
+.cl-name p{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2px;;
+}
+.clients{
+    color:white;
+    padding-bottom: 50px;;
+}
+.first3 {
+    position: absolute;
+    padding-top:2%;
+    padding-left: 16%;
+
+}
+.num-para4 p {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 1px;
+    width: 42%;
+    color: #0872b5;
+}
+.num-para4 ul {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 1px;
+    width: 44%;
+    list-style: none;
+}
+.img-5 .img-bg3{
+   
+    position: relative;
+    
+    
+}
+
+.clients-head-1 h1 {
+    font-size: 59px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 18px;
+    color: #0872b5;
+}
+
+.clients-head-1 p {
+    font-size: 19px;
+    letter-spacing: 2px;
+    padding-top: 18px;
+}
+
+.para-clients-1 p {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+.img-6{
+    position: relative;
+    margin-top:11%;
+}
+.img-6 img{
+    width:100%;
+    height: 870px;
+}
+.card-features-1{
+    top:-7%;
+}
+.icon-img2 {
+    background: linear-gradient(#3d9fd47a,
+                #62b2e4c7);
+                background-color: #0d519c;
+    border-radius: 53%;
+   
+    width: 24%;
+    margin-left: 34%;
+    top: -41px;
+}
+
+
+
+.para-4 {
+    padding-top: 62px;
+    ;
+}
+
+
+
+.para-4 p {
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 10px;
+    line-height: 35px;;
+    
+
+}
+
+.fea-card {
+    
+            background-color:#13a6e9;
+    color: black;
+    border-radius: 14px;
+    ;
+}
+.divs-1 {
+    position: absolute;
+    top: 19rem;
+    padding-left: 12%;
+    color: azure;
+}
+
+.divs-1 .div-1 {
+    width:35%;;
+    ;
+}
+.div-1 h1{
+    font-size: 42px;
+    font-weight: 600;
+    color: #095783;;
+}
+
+.divs-1 .div-2 {
+    width: 60%;;
+}
+
+.div-2 p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 39px;
+
+}
+.form-1{
+    width:55%;
+    padding:30px;
+    margin: auto;
+    border-radius: 14px;;
+    background-color: #0872b5;
+
+}
+.name input{
+    width:100%;
+    padding:17px;
+    border-radius: 11px;
+    border-style: none;;
+    font-weight: 600;
+}
+.name2 input{
+    margin-top:23px;
+    width: 100%;
+        padding: 17px;
+        border-radius: 11px;
+        border-style: none;
+        ;font-weight: 600;
+}
+.name2 button {
+    margin-top: 23px;
+    width: 100%;
+padding: 15px;
+    border-radius: 11px;
+    border-style: none;
+    ;font-weight: 800;
+    font-size: 20px;
+    background: linear-gradient(#3aafefeb, #45aaeaed);
+                color: white;
+                letter-spacing: 1px;;
+}
+.name3 textarea {
+    margin-top: 23px;
+    width: 100%;
+    height: 125px;;
+    padding: 17px;
+    border-radius: 11px;
+    border-style: none;
+    ;font-weight: 600;
+}
+.form-para{
+    padding-left:23%;
+}
+/* 
+@keyframes slideIn {
+    0%, 100% {
+      left: -100%; /* Text is outside of the viewport at the beginning and end of animation 
+    }
+    50% {
+      left: 0; /* Text is fully inside the viewport in the middle of the animation 
+    }
+}
+*/
+.cl-name h5{
+    color:#022a41;
+    font-weight: 700;
+}

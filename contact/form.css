@@ -1,0 +1,206 @@
+.contact{
+    
+    padding: 15px;
+    text-align: center;
+}
+.head{
+    padding: 30px;;
+}
+.head h1{
+    font-size: 50px;
+    font-weight: 600;
+    color:#0876b5;
+    
+    letter-spacing: 2px;;
+}
+.para {
+    width:88%;
+    margin: auto;
+}
+.para p{
+    font-size: 23px;
+    padding-top:11px;;
+    color:#497575;
+}
+hr{
+    width:100%;
+
+    background:linear-gradient(#022e47,#022e47);
+    padding:4px;
+}
+.contact-div{
+
+    margin-top: 20px;;
+}
+.headings h2{
+    font-size: 42px;
+    font-weight: 500;
+    color: #0876b5;
+}
+.headings{
+    text-align: start;
+    padding:12px;
+    margin-top:29px;
+}
+.headings p{
+    font-size: 18px;
+    font-weight: 400;
+    padding-top:13px;
+    color:#497575;
+}
+.name input{
+    width:100%;
+    padding:20px;
+    border-style: none;
+    border-bottom: 1px solid rgb(59 58 58 / 32%);
+    font-weight: 500;
+    color:rgb(68, 66, 66);
+    font-size: 17px;;
+    padding-bottom: 35px;;
+}
+.cpta{
+    width:30%;
+    margin-top:20px;
+    border:1px solid rgb(68, 66, 66);
+    padding:12px;
+ 
+}
+.captha-div{
+    
+    width: 30%;;
+    margin-top:3px;
+}
+.captha-div input{
+    width:100%;
+    height:20px;
+}
+.para-2{
+    
+}
+.para-2 span{
+    font-size: 15px;
+    font-weight: 500;
+}
+.privacy{
+    text-align: start;
+    padding:12px;;
+}
+.privacy p{
+    font-size: 20px;
+    font-weight: 300;
+}
+.buttons button{
+    padding-top:14px;
+    padding-bottom: 14px;
+    padding-left: 57px;
+    padding-right: 57px;
+    border-style: none;
+    font-size: 19px;
+    font-weight: 700;
+background-color: #0876b5;
+    color:white;
+    letter-spacing: 1px;;
+}
+.heads{
+    padding: 17px;
+    margin-top:23px;
+    text-align: start;
+    color: azure;
+}
+.heads  h3{
+    font-size: 36px;
+    font-weight: 600;
+}
+.heads p{
+    font-size: 18px;
+    padding-top:11px;
+}
+.details{
+    padding:20px;
+}
+.div-1{
+    padding:11px;
+
+}
+.div-1 .icon{
+    width:13%;
+}
+.div-1 .para-details{
+    width:53%;
+    text-align: start;
+    padding-left:33px;
+}
+.icon-img {
+    background:linear-gradient(rgb(7 236 226 / 77%), rgb(23 152 252));
+    padding:14px;
+    border-radius: 50%;;
+    color: azure;
+
+}
+.para-details h6{
+    font-size: 17px;
+    font-weight: 700;
+    color:#022e47;
+}
+.para-details p{
+    font-size: 19px;
+    font-weight: 600;
+    color: azure;
+    letter-spacing: 1px;;
+}
+.icon ul{
+    list-style:none;
+    display: flex;
+    width:100%;
+    padding:10px;
+    margin:0;
+    justify-content: space-around;
+}
+.icon ul li{
+    padding:6px;
+background: linear-gradient(rgb(7 236 226 / 77%), rgb(23 152 252));
+    margin-right:10px;
+    border-radius: 50%;;
+    color: azure;
+}
+.get {
+    background-color: #0876b5;
+    
+}
+.divs{
+    display: flex;
+}
+@media (max-width:480px) {
+    .divs{
+        display: block;
+    }
+    .head{
+        width:100%;
+    }
+    .head h1{
+        font-size: 21px;;
+    }
+    .para p{
+        font-size: 10px;;
+    }
+    hr{
+        padding:3px;
+    }
+    .headings h2{
+        font-size: 25px;;
+       
+    }
+    .headings p{
+        font-size: 13px;;
+    }
+    .cpta{
+        width:100%;
+        
+    }
+    .captha-div{
+        width:50%;
+    }
+    .div-1 .icon{
+        width:19%;
+    }
+}

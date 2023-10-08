@@ -1,0 +1,500 @@
+.heads{
+    
+}
+.card-1{
+    background: linear-gradient(#62a9d2, #5c119bc7);
+    padding:30px;
+    display: flex;
+    border-radius: 10px;;
+}
+.bg-img{
+    height: 500px;
+    background: url(../image/careerImage/career.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.para{
+width:50%;
+text-align: center;
+margin: auto;
+padding-top:13%;
+}
+.para h1{
+    font-size: 41px;
+    font-weight: 600;
+    letter-spacing: 1px;;
+}
+.pr{
+    text-align: center;
+    margin: auto;
+    margin-left:38%;
+    padding-top:9px;
+}
+.pr li{
+    padding-left:29px;
+
+    font-size: 20px;
+    font-weight: 400;
+}
+.img-div{
+    width:18%;
+}
+.content{
+    width:70%;
+
+}
+.bookmark {
+    width: 100%;
+    text-align: center;
+    
+    ;
+}
+
+.bookmark button {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 19px;
+    padding-right: 19px;
+    border-style: none;
+    border-radius: 10px;
+  
+
+    font-size: 19px;
+    font-weight: 700;
+   color: #0876b5;
+    background-color: white;
+
+
+}
+.buttons {
+    width: 27%;
+    text-align: center;
+   
+    ;
+}
+
+
+.apply button{
+    padding-top:13px;
+    padding-bottom: 13px;
+    padding-left: 47px;
+    padding-right: 47px;
+    border-style: none;
+    border-radius: 10px;;
+    font-size: 19px;
+    font-weight: 700;
+    background-color: #0876b5;
+    color:white;
+margin-top: 14%;
+
+}
+  .content-list1 {
+    list-style: none;
+    display: flex;
+
+    padding-left: 33px;
+}
+.content-list2 {
+    list-style: none;
+    display: flex;
+ 
+    padding-left: 33px;
+}
+.content-list3 {
+    list-style: none;
+    display: flex;
+    padding-left: 33px;
+}
+.content-list1 ul li{
+
+
+}
+
+.content-list1 li{
+    margin-right:25px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 7px;;
+    padding: 4px;
+}
+.content h3{
+    padding-left:33px;
+    font-size: 33px;
+}
+.content-list2 li{
+    font-size: 30px;;
+    margin-right:22px;
+    color: azure;
+    padding: 4px;
+}
+
+.content-list3 li{
+    font-size: 14px;
+    font-weight: 500;
+    margin-right:8px;
+    color: azure;
+    padding: 4px;
+    letter-spacing: 1px;;
+}
+.job-owerview .bar{
+    height: 7px;
+        width: 100px;
+        background: #0074ca3d;
+        position: relative;
+        border-radius: 50px;
+        margin-bottom: 20px;
+        margin-left: 5px;
+            margin-top: 12px;
+    }
+.job-owerview .bar::before{
+    content: "";
+        position: absolute;
+        top: -2px;
+        left: 0;
+        height: 11px;
+        width: 12px;
+        border-radius: 50px;
+        background-color:#0876b5;
+        -webkit-animation-duration: 2s;
+        animation-duration: 2s;
+}
+.details {
+    list-style: none;
+    padding:9px;
+   
+    
+}
+.details ul li{
+    
+        color: black;
+        width: 100%;
+        margin-bottom: 10px;
+        font-size: 17px;
+      
+    
+}
+.details li{
+    font-size: 19px;
+    font-weight: 400;
+    padding: 10px;
+}
+.details span{
+    float: right;
+}
+.share .icon{
+    display: flex;
+    list-style: none;
+  
+}
+.icon{
+    margin-left: 54px;
+    margin-top: 5px;
+}
+.icon li{
+    margin-left:11px;
+}
+.title1 h3{
+    font-size:29px;
+    font-weight: 500;
+    letter-spacing: 1px;;
+}
+
+.map-div .bar {
+    height: 7px;
+    width: 100px;
+    background: #0074ca3d;
+    position: relative;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-top:12px;
+}
+
+.map-div .bar::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: 0;
+    height: 11px;
+    width: 12px;
+    border-radius: 50px;
+    background-color: #0876b5;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+}
+.map-img img{
+padding:5px;
+}
+.share1 .icon1 {
+    display: flex;
+    list-style: none;
+    margin-top:5px;
+
+}
+
+
+
+.icon1 li {
+    margin-left: 11px;
+    color: #0876b5;
+}
+.map-img ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.map-img ul li{
+    background-color: aliceblue;;
+    color:#0876b5;
+    margin-right:40px;
+    padding:10px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top:12px;
+}
+.overview-buttons button{
+    border-style: none;
+    width:100%;
+    padding-top:10px;;
+    padding-bottom:  10px;
+        padding-left: 10px;
+            padding-right: 10px;
+            font-size: 19px;
+            font-weight: 700;
+            background-color: #0876b5;
+            color: white;
+}
+.div-1 .bar {
+    height: 7px;
+    width: 100px;
+    background: #0074ca3d;
+    position: relative;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-top: 12px;
+}
+
+.div-1 .bar::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: 0;
+    height: 11px;
+    width: 12px;
+    border-radius: 50px;
+    background-color: #0876b5;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+}
+
+.para1 p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;;
+}
+
+.para2 ul li {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 45px;
+        ;
+}
+
+
+.img-1 img{
+    width:100%;
+    border-radius: 20px;;
+}
+.icon-div{
+    width:10%;
+    text-align: center;
+    top:47%;
+    left:47%;
+    border-radius: 60%;;
+    padding-bottom: 11px;;
+    background-color: #0876b5;
+    color:white;
+}
+.div-img{
+    width:14%;
+  
+}
+.div-para{
+    width:85%;
+    margin-left:12px;
+  color:white;
+}
+.head h3{
+    font-size: 29px;
+    font-weight: 500;
+    color:black;
+}
+.para-list p{
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 1px;;
+}
+.cards{
+    display: flex;
+}
+.para-list {
+    padding-left:11px;
+}
+.buttons-cards ul{
+    list-style: none;
+    display: flex;
+    padding:8px;
+    margin:0;
+}
+.buttons-cards ul li{
+ padding:5px;
+ border-radius: 10px;;
+}
+
+.last-cards{
+    background: linear-gradient(#62a9d2, #5c119bc7);
+    padding:12px;
+    border-radius: 10px;;
+}
+.head-last h1{
+    font-size: 35px;
+    font-weight: 600;
+}
+.head-last .bar {
+    height: 7px;
+    width: 100px;
+background: #0074ca3d;
+    position: relative;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-top: 12px;
+}
+
+.head-last .bar::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: 0;
+    height: 11px;
+    width: 12px;
+    border-radius: 50px;
+    background-color: #0876b5;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+}
+.last-para1 p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.buttons-lets{
+    text-align: center;
+}
+.buttons-lets button{
+    
+    margin-top:21%;;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size:17px;
+    font-weight: 700;
+    border-style: none;
+    border-radius: 10px;;
+    background-color: #0876b5;
+    color: white;
+    float: right;
+}
+.payment span{
+    background-color: rgb(181, 194, 198);
+        float: right;
+       border-radius: 10px;;
+        font-weight: 700;
+        padding:4px;
+}
+.loc{
+    display: flex;
+}
+@media (max-width:480px){
+    .pr{
+        margin-left: 0;
+    }
+    .card-1{
+        width:100%;
+        display: block;
+    }
+        .content-list1{
+            display: block;
+            text-align: center;
+            margin-top: 12px;;
+        }
+           .content-list1 li{
+            margin-top:11px;
+           }
+                   .content-list2{
+                    display: block;
+                   }
+                                   .content-list3 {
+                                       display: block;
+                                   }
+                                   .buttons{
+                                    width:55%;
+                                   }
+            .cards{
+                display: block;
+            } 
+            .div-img {
+                width:28%;
+            }  
+                        .buttons-cards ul{
+                            display: block;
+                        }
+.buttons{
+    width:82%;
+}
+.buttons-cards ul li{
+    width:40%;
+    margin-top:5%;
+}
+.buttons-cards ul span{
+    margin-left:0;
+    float: initial;
+}
+.head-last h1{
+font-size: 28px;
+font-weight: 700;
+}
+.last-para1 p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.buttons-lets button{
+    margin-top:5%;
+    float: none;
+}
+.payment span{
+    float: none;
+}
+.div-img{
+    width:38%;
+}
+.img-div{
+    width:38%;
+}
+.content h3{
+    font-size: 15px;
+    font-weight: 700;
+}
+.content-list2 li{
+    font-size: 21px;
+}
+.post{
+    font-size: 21px;
+}
+.icon-div{
+    width:20%;
+}
+}

@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #fafafa;
+}
+
+.apply-job-heading{
+   display: flex;
+   align-items: center;
+   padding-bottom: 10px;
+}
+
+.apply-job-heading span{
+    padding-left: 15px;
+}
+
+.apply-job-heading a{
+    text-decoration: none;
+    color: #000;
+}
+
+.apply-job-heading span i{
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none !important;
+}
+
+.card-body{
+    position: relative;
+    padding: 20px;
+}
+
+.card-image{
+    width: 12%;
+}
+
+.card-image img{
+  border-radius: 50%;
+}
+
+.card-title{
+    padding-left: 20px;
+}
+
+.card-title a{
+   text-decoration: none;
+   color: #000;
+}
+
+.card-title .card-list1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0; 
+    padding-top: 8px;
+}
+
+.card-title .card-list1 li{
+    margin-right: 15px;
+    font-size: 16px;
+    color: #696969;
+}
+
+.card-title .card-list1 li i, p i{
+    padding-right: 10px;
+    color: #0872b5;
+}
+
+.card-title p{
+    margin: 0;
+    padding-top: 10px;
+    font-size: 16px;
+    color: #696969;
+}
+.card-list2{
+    padding-top: 10px;
+}
+
+.inner-card-list1{
+    width: 55%;
+}
+
+.inner-card-list1 ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    /* justify-content: space-around; */
+}
+
+.inner-card-list1 ul li{
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: #e6eff5;
+    color: #0872b5;
+    border-radius: 20px;
+    padding-top: 7px;
+    padding-bottom: 9px;
+}  
+ 
+.card-price{
+    font-size: 17px;
+}
+
+.card-price span{
+    font-size: 16px;
+    color: #696969;
+}
+
+.cross-btn{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+@media (max-width: 768px){
+
+.inner-card-list1 ul li {
+    padding: 5px 14px;
+    font-size: 12px;
+    margin-right: 0;
+}
+
+/* .row-card{
+    display:  !important;
+} */
+}
+
+@media (min-width: 769px) and (max-width: 1440px){
+    .inner-card-list1 ul li {
+        padding: 5px 14px;
+        font-size: 12px;
+        margin-right: 0;
+    } 
+}
